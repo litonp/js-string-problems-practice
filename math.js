@@ -21,4 +21,5 @@ const fullNumber = Math.round(number)
 const result2 = Math.ceil(number)
 // console.log(result2);
 const result3 = Math.floor(number)
-console.log(result3);
+// console.log(result3);
+
