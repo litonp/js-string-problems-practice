@@ -3,13 +3,13 @@ let second = 7;
 console.log(first, second);
 
 // this is wrong approach 
-// first = second;
-// second = first;
+first = second;
+second = first;
 
 // approach 1
-// const temp = first;
-// first = second;
-// second = temp;
+const temp = first;
+first = second;
+second = temp;
 
 // approach 2
 [first, second] = [second, first];
